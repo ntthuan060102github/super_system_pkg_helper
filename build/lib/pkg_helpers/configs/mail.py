@@ -6,5 +6,5 @@ class MailConfig():
     port: str = ""
     username: str = ""
     password: str = ""
-    user_tls: bool = False
-    user_ssl: bool = False
+    use_tls: bool = False
+    use_ssl: bool = False

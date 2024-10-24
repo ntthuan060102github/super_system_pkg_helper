@@ -7,6 +7,8 @@ pkg_helpers.egg-info/top_level.txt
 pkg_helpers/auth/__init__.py
 pkg_helpers/auth/user_dto.py
 pkg_helpers/auth/user_model.py
+pkg_helpers/background_tasks/__init__.py
+pkg_helpers/background_tasks/tasks.py
 pkg_helpers/configs/__init__.py
 pkg_helpers/configs/base.py
 pkg_helpers/configs/mail.py
@@ -24,11 +26,11 @@ pkg_helpers/exceptions/__init__.py
 pkg_helpers/exceptions/auth.py
 pkg_helpers/logging/__init__.py
 pkg_helpers/logging/logging.py
-pkg_helpers/mail_templates/__init__.py
 pkg_helpers/otp/__init__.py
 pkg_helpers/otp/generate_otp.py
 pkg_helpers/response/__init__.py
 pkg_helpers/response/response.py
 pkg_helpers/services/__init__.py
+pkg_helpers/services/queue_name.py
 pkg_helpers/services/service_name.py
 pkg_helpers/services/service_route.py
